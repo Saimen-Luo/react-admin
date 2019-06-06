@@ -4,7 +4,7 @@ import { Button, message } from 'antd'
 
 export default class App extends Component {
     handleClick = () => {
-        message.info('普通消息')
+        message.success('普通消息')
     }
     render() {
         return (
